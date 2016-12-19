@@ -10,3 +10,13 @@ Usage:
 Run `npm install` to download dependencies.
 
 Run `npm start` to launch the application.
+
+
+Virtual Audio Cable configuration on Windows:
+Basically the idea here is to route your regular sound output to the virtual microphone input, then route only the audio output from the call to your real audio output.
+
+* Open Windows Sound settings in Control Panel.
+* Under Playback, right-click CABLE Input and click Set as Default Device.
+* In Skype or other VOIP tool, set Microphone to CABLE Output and Speakers to your regular sound card speaker output.
+
+Note: When you're done with your call be sure to change your Windows Playback default device back to your regular speakers.
