@@ -1,0 +1,16 @@
+{
+  "name": "tts-chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "prompt": "^1.0.0",
+    "say": "^0.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Ryan Pfister",
+  "license": "ISC"
+}
